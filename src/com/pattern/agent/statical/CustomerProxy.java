@@ -10,6 +10,6 @@ public class CustomerProxy implements Customer{
     @Override
     public void say() {
         customer.say();
-        System.out.println("I am a proxy. I deal the rest");
+        System.out.println("I am a proxy. I deal the rest.");
     }
 }
